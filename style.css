@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+}
+.myimages{
+    height: 30px;
+    width: 120px;
+    margin-left: 100px;
+}
+.navbar{
+    background-image: linear-gradient(to right,#FFEFBA, #FFFFFF);
+}
+#navbarSupportedContent li a{
+   padding: 50px 20px;
+   font-weight: bold;
+}
+nav img{
+    width:40%;
+    margin-left: 30px;
+}
+.button{
+    border:none;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    color:aliceblue;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+.navbar i{
+    padding: 0px;
+    margin: 5px;
+   font-size: 20px;
+}
+#banner{ 
+    padding-top: 5%;
+    height:80vh;
+    background-image: linear-gradient(to right,#FFEFBA, #FFFFFF);
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: black;
+}
+
+.downbutton{
+    border:none;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    color: #fff;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+.img-fluid{
+    width: 80%;
+   padding-left: 0px 100px;
+}
+
+ @media only screen and (max-width: 480px) {
+    #banner{
+       
+        height:400vh;
+    } 
+    .button{
+        display: none;
+    }
+  }
+ @media only screen and (max-width: 768px) {
+    #banner{
+       
+        height:400vh;
+    }
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    #banner{
+       
+        height:400vh;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    #banner{
+       
+        height:400vh;
+    }
+  }
